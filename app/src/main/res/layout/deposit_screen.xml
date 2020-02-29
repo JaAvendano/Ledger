@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical"
+    android:weightSum="5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="@string/accounts"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_weight=".2"
+        android:inputType="none"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/deposit_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:hint="@string/accounts"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_weight="4.75"
+        android:inputType="none"
+        android:importantForAutofill="no"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="@string/amount"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_weight=".2"
+        android:inputType="none"
+        />
+    <EditText
+        android:id="@+id/deposit_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:hint="@string/amount"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_weight=".2"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:layout_gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true">
+            <Button
+                android:id="@+id/btn_deposit_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                android:textSize="25sp"
+                />
+            <Button
+                android:id="@+id/btn_add_deposit_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"
+                android:textSize="25sp"
+                />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

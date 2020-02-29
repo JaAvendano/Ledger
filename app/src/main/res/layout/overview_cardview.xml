@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:padding="3dp">
+
+        <TextView
+            android:id="@+id/cardView_accName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:gravity="center"
+            android:background="#424971"
+            android:textSize="30sp"
+            android:text="@string/name"
+            android:layout_alignParentTop="true"/>
+        <TextView
+            android:id="@+id/cardView_inst_disp"
+            android:layout_width="125sp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:gravity="center"
+            android:background="#899"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="@string/institution"
+            android:layout_below="@+id/cardView_accName"
+            />
+        <TextView
+            android:id="@+id/cardView_bal_disp"
+            android:layout_width="125sp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:background="#899"
+            android:text="@string/balance"
+            android:layout_below="@id/cardView_inst_disp"/>
+        <TextView
+            android:id="@+id/cardView_institution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:gravity="center"
+            android:background="#2646"
+            android:textSize="25sp"
+            android:text="@string/welcome"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/cardView_inst_disp"
+            android:layout_below="@id/cardView_accName"/>
+        <TextView
+            android:id="@+id/cardView_Bal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:gravity="center"
+            android:background="#2646"
+            android:textSize="25sp"
+            android:text="@string/welcome"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/cardView_bal_disp"
+            android:layout_below="@+id/cardView_institution"
+            />
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

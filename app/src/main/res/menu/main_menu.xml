@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main_menu_account"
+            android:icon="@drawable/ic_accounts"
+            android:title="@string/accounts" />
+        <item
+            android:id="@+id/main_menu_deposits"
+            android:icon="@drawable/ic_deposit"
+            android:title="@string/deposits" />
+        <item
+            android:id="@+id/main_menu_transactions"
+            android:icon="@drawable/ic_transactions"
+            android:title="@string/add_transaction" />
+        <item
+            android:id="@+id/main_menu_add_account"
+            android:icon="@drawable/ic_add_account"
+            android:title="@string/add_account" />
+    </group>
+
+
+</menu>

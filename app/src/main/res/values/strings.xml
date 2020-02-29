@@ -1,0 +1,32 @@
+<resources>
+    //transactions
+    <string name="app_name">Ledger</string>
+    <string name="balance">Balance:</string>
+    <string name="welcome">Welcome</string>
+    <string name="name">Name</string>
+    <string name="status">Status</string>
+    <string name="amount">Amount</string>
+    <string name="date">Date</string>
+    <string name="id">Id</string>
+    <string name="acc_id">acc_Id</string>
+    <string name="cat">Cat</string>
+    <string name="method">Method</string>
+    //accounts
+    <string name="deposits">Deposits</string>
+    <string name="institution">Institution</string>
+    <string name="type">Type</string>
+    //miss
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    //add transfer
+    <string name="transTo">Transfer To</string>
+    <string name="transFrom">Transfer From</string>
+    //main menu
+    <string name="accounts">Accounts</string>
+    <string name="add_account">Add Account</string>
+    <string name="add_transaction">Add Transaction</string>
+    //drawer
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+</resources>

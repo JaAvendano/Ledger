@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "825662779787",
+    "firebase_url": "https://banking-ledger.firebaseio.com",
+    "project_id": "banking-ledger",
+    "storage_bucket": "banking-ledger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825662779787:android:0518d73a655fc283003f8e",
+        "android_client_info": {
+          "package_name": "com.finance.ledger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825662779787-svokbgg1j6j3a00116q0qbg1rug30jta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.finance.ledger",
+            "certificate_hash": "7240c87b8818ae0709fbfb19faf15e00c824419c"
+          }
+        },
+        {
+          "client_id": "825662779787-0skqfrk1hl81b2gaovmn7rl51pemjc88.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOpVAQiHPi4f7vMLsxO6UF0gqCnWbbBII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825662779787-0skqfrk1hl81b2gaovmn7rl51pemjc88.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

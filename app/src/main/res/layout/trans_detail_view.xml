@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="3dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/trans_details_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#424971"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="@string/date"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="125sp"
+                android:layout_height="wrap_content"
+                android:background="#899"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="@string/acc_id"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/trans_details_acc_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2646"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="@string/acc_id"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="125sp"
+                android:layout_height="wrap_content"
+                android:background="#899"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="@string/id"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/trans_details_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2646"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="@string/id"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="125sp"
+            android:layout_height="wrap_content"
+            android:background="#899"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="@string/name"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/trans_details_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2646"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="@string/name"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="125sp"
+            android:layout_height="wrap_content"
+            android:background="#899"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="@string/cat"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/trans_details_cat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2646"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="@string/cat"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="125sp"
+            android:layout_height="wrap_content"
+            android:background="#899"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="@string/amount"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/trans_details_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2646"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="@string/amount"
+            android:textSize="25sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="125sp"
+            android:layout_height="wrap_content"
+            android:background="#899"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="@string/balance"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/trans_details_bal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2446"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="@string/balance"
+            android:textSize="25sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="125sp"
+            android:layout_height="wrap_content"
+            android:background="#899"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="@string/method"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/trans_details_method"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2646"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="@string/method"
+            android:textSize="25sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="125sp"
+            android:layout_height="wrap_content"
+            android:background="#899"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="@string/status"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/trans_details_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2646"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="@string/status"
+            android:textSize="25sp" />
+    </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
